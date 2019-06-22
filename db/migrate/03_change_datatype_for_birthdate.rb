@@ -1,4 +1,5 @@
 class Students < ActiveRecord::Migration
-  def change
+  def change_column(table_name, column_name, type)
+    
     
   
